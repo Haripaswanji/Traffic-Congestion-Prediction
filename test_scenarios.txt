@@ -1,0 +1,83 @@
+Test Scenarios for Traffic Prediction System
+===========================================
+
+English:
+--------
+
+1. Lowest Traffic Scenarios:
+   - Clear weather, early morning (5-7 AM)
+   - Clear weather, late night (11 PM-1 AM)
+   - Light rain, early morning (5-7 AM)
+   - Light rain, late night (11 PM-1 AM)
+
+2. Medium Traffic Scenarios:
+   - Clear weather, mid-day (12-2 PM)
+   - Clear weather, evening (6-8 PM)
+   - Light rain, mid-day (12-2 PM)
+   - Light rain, evening (6-8 PM)
+   - Heavy rain, early morning (5-7 AM)
+   - Heavy rain, late night (11 PM-1 AM)
+
+3. Highest Traffic Scenarios:
+   - Clear weather, rush hour morning (8-10 AM)
+   - Clear weather, rush hour evening (4-6 PM)
+   - Light rain, rush hour morning (8-10 AM)
+   - Light rain, rush hour evening (4-6 PM)
+   - Heavy rain, rush hour morning (8-10 AM)
+   - Heavy rain, rush hour evening (4-6 PM)
+
+Input Format:
+------------
+Time: [HH:MM]
+Weather: [Clear/Light Rain/Heavy Rain]
+Day: [Weekday/Weekend]
+
+हिंदी:
+-----
+
+1. सबसे कम ट्रैफिक के परिदृश्य:
+   - साफ मौसम, सुबह जल्दी (5-7 बजे)
+   - साफ मौसम, देर रात (11 बजे-1 बजे)
+   - हल्की बारिश, सुबह जल्दी (5-7 बजे)
+   - हल्की बारिश, देर रात (11 बजे-1 बजे)
+
+2. मध्यम ट्रैफिक के परिदृश्य:
+   - साफ मौसम, दोपहर (12-2 बजे)
+   - साफ मौसम, शाम (6-8 बजे)
+   - हल्की बारिश, दोपहर (12-2 बजे)
+   - हल्की बारिश, शाम (6-8 बजे)
+   - भारी बारिश, सुबह जल्दी (5-7 बजे)
+   - भारी बारिश, देर रात (11 बजे-1 बजे)
+
+3. सबसे अधिक ट्रैफिक के परिदृश्य:
+   - साफ मौसम, सुबह का रश ऑवर (8-10 बजे)
+   - साफ मौसम, शाम का रश ऑवर (4-6 बजे)
+   - हल्की बारिश, सुबह का रश ऑवर (8-10 बजे)
+   - हल्की बारिश, शाम का रश ऑवर (4-6 बजे)
+   - भारी बारिश, सुबह का रश ऑवर (8-10 बजे)
+   - भारी बारिश, शाम का रश ऑवर (4-6 बजे)
+
+इनपुट प्रारूप:
+-------------
+समय: [घंटा:मिनट]
+मौसम: [साफ/हल्की बारिश/भारी बारिश]
+दिन: [सप्ताह का दिन/सप्ताहांत]
+
+Example Test Cases:
+-----------------
+1. Low Traffic:
+   Time: 06:00
+   Weather: Clear
+   Day: Weekday
+
+2. Medium Traffic:
+   Time: 13:00
+   Weather: Light Rain
+   Day: Weekday
+
+3. High Traffic:
+   Time: 09:00
+   Weather: Heavy Rain
+   Day: Weekday
+
+Note: These scenarios should be tested with different combinations of time, weather, and day type to ensure comprehensive testing of the traffic prediction system. 
